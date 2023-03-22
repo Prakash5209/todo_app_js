@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="station.css">
+    <title>todo app</title>
+</head>
+<body>
+	<div id="container">
+		<p class="header">very basic to do app</p>
+		<p class="info">Enter your left to do task and press 'add your task' button below this info.<br>
+			don't press 'add your task' button without entering your left to do task, because it will through alert box
+		</p>
+		<hr>
+		<div class="interact">
+			<input type="text" id="userInput" placeholder="your task">
+			<button id="insertButton" value="submit" onclick="insertButton()">Add your task</button>
+		</div><br>
+		<div class="parenttask">
+			<p class="info">your entered left to do task will be down here</p>
+			<ol id="list">
+				<li id="taskList">first</li>
+				<li id="taskList">second</li>
+				<li id="taskList">third</li>
+				<li id="taskList">fourth</li>
+			</ol>
+		</div>
+	</div>
+	<script src="station.js"></script>
+</body>
+</html>
